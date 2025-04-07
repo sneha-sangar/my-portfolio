@@ -1,0 +1,29 @@
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-btn,
+.resume-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1DC9b7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover,
+.resume-btn:hover {
+  background-color: #17b0a3;
+}

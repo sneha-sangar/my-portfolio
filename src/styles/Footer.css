@@ -1,0 +1,37 @@
+.footer {
+    background: var(--primary-color);
+    color: #fef7f7;
+    padding: 40px 0;
+    text-align: center;
+    background: #23395d; 
+
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  
+  .footer-data a {
+    font-size: 1.5rem;
+    color: #fef7f7;
+    margin: 0 10px;
+    transition: opacity 0.3s;
+  }
+  
+  .footer-data a:hover {
+    opacity: 0.7;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  

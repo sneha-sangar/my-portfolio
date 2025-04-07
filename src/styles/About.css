@@ -1,0 +1,105 @@
+.about {
+  padding: 60px 0;
+  color: rgb(7, 7, 7);
+  text-align: center;
+}
+
+.section-title {
+  position: relative;
+  font-size: 2rem;
+  text-align: center; /* Centers text */
+  margin: 0 auto 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: var(--primary-color, #123a52);
+  margin: 8px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease-in-out;
+}
+
+.section-title.active-line::after {
+  width: 60px; 
+}
+
+.about-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: left; /* Align text to start */
+}
+
+.about-img img {
+   /* width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border: 5px solid white; */
+  /* box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3); */ 
+  width: 300px; /* Rectangular shape */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border-radius: 10px;  */
+  /* Smooth corners instead of a circle */
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.about-profession {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: start; /* Ensures left alignment */
+}
+
+/* Social Icons */
+.about-social {
+  margin-top: 20px;
+}
+
+.about-social a {
+  font-size: 1.8rem;
+  color: rgb(16, 15, 15);
+  margin-right: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.about-social a:hover {
+  transform: scale(1.2);
+  color: #F4A261;
+}
+.btn-download {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #81ede3, #5debdd, #1DC9b7);
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+  background: linear-gradient(135deg, #5debdd, #1DC9b7);
+  transform: scale(1.05);
+}
