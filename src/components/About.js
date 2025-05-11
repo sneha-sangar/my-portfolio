@@ -3,7 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/About.css";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import Photo from "../asset/Photo.jpeg";
+// import Photo from "../asset/Photo.jpeg";
+import Photos from "../asset/Photos.jpeg";
 import Resume from "../asset/Resume.pdf"; // Add your resume file here
 
 const About = () => {
@@ -37,7 +38,7 @@ const About = () => {
       </h2>
       <div className="about-container bd-grid">
         <div className="about-img" data-aos="zoom-in">
-          <img src={Photo} alt="Sneha" />
+          <img src={Photos} alt="Sneha" />
         </div>
         <div>
           <h2 className="about-subtitle" data-aos="fade-left">I'm Sneha Sangar</h2>

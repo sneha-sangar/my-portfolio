@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Project.css";
-
+import image from "../asset/image.jpg"
 const projects = [
   {
     title: "Subscription-Based Learning",
@@ -13,7 +13,7 @@ const projects = [
     title: "Portfolio Website",
     Technology: "React JS, HTML, CSS, JavaScript",
     description: "A React-based personal portfolio with interactive animations.",
-    image: "https://i.postimg.cc/wTZG6Gzq/project2.jpg",
+    image: image,
     moreInfo: "This portfolio includes sections like About, Skills, Projects, and Contact, using React animations for a smooth UI."
   },
   {

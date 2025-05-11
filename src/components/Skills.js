@@ -32,7 +32,7 @@ const Skills = () => {
         <div className="skills-box">
           <h3 className="skills-subtitle" data-aos="fade-right">Development</h3>
           <div className={`skills-list ${isVisible ? "visible" : ""}`}>
-            {["HTML", "CSS", "JavaScript", "React.js", "AngularJs", "TypeScript", "Firebase", "Node.js"].map(skill => (
+            {["HTML", "CSS", "JavaScript", "React.js", "AngularJs", "TypeScript", "Firebase", "Node.js",'React Native'].map(skill => (
               <span key={skill} className="skills-name" data-aos="zoom-in">{skill}</span>
             ))}
           </div>
@@ -46,12 +46,12 @@ const Skills = () => {
         </div>
 
         <div className="skills-img">
-          <img 
+          {/* <img 
             src="https://i.postimg.cc/fL7Z1bFw/skill.jpg" 
             alt="Skills" 
             className={isVisible ? "visible" : ""}
             data-aos="fade-left"
-          />
+          /> */}
         </div>
       </div>
     </section>
