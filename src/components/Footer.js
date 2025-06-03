@@ -12,9 +12,9 @@ const Footer = () => {
         </div>
         <div className="footer-data">
           <h2 className="footer-title">Follow</h2>
-           <a href="https://www.linkedin.com/in/sneha-sangar-2a0bb3176" target="blank"><FaLinkedin /></a>
-                     {/* <a href="https://github.com/sneha-sangar" target="blank"><FaGithub /></a> */}
-                     <a href="https://www.instagram.com/_sneha_sangar" target="blank"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/sneha-sangar-2a0bb3176" target="blank"><FaLinkedin /></a>
+          {/* <a href="https://github.com/sneha-sangar" target="blank"><FaGithub /></a> */}
+          <a href="https://www.instagram.com/_sneha_sangar" target="blank"><FaInstagram /></a>
         </div>
       </div>
     </footer>
